@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\gradle",
+    "\\gradle\\wrapper",
+    "\\src\\client",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\example",
+    "\\src\\main\\java\\com\\example\\mixin",
+    "\\src\\main\\resources\\assets",
+    "\\src\\main\\resources\\assets\\modid"
+  ],
+  "SelectedNode": "\\gradle.properties",
+  "PreviewInSolutionExplorer": false
+}
