@@ -47,7 +47,7 @@ public class ArmourEffects {
             }
         }
 
-        if(MaterialsMatch(materials)){
+        if(MaterialsMatch(materials) && EffectQuality.get(materials[0].getName())!=null){
             GiveEffect(materials[0], player);
         }else{
             for(int i=0; i<4; i++){
