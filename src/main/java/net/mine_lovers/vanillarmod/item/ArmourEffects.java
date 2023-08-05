@@ -51,7 +51,7 @@ public class ArmourEffects {
             GiveEffect(materials[0], player);
         }else{
             for(int i=0; i<4; i++){
-                if(materials[i] != null && !EffectQuality.get(materials[i].getName())){
+                if(materials[i] != null && EffectQuality.get(materials[i].getName())!=null && !EffectQuality.get(materials[i].getName())){
                     GiveEffect(materials[i],player);
                 }
             }
