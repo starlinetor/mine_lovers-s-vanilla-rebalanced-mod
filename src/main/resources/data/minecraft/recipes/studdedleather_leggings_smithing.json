@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "result": {
+    "item": "vanillarmod:studdedleather_leggings"
+  },
+  "template": {
+    "item": "vanillarmod:upgrading_tools"
+  }
+}

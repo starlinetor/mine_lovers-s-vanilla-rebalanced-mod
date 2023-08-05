@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillarmod:item/studdedleather_helmet",
+    "layer1": "vanillarmod:item/studdedleather_helmet_overlay"
+  }
+}

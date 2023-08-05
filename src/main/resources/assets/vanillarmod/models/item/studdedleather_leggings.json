@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vanillarmod:item/studdedleather_leggings",
+    "layer1": "vanillarmod:item/studdedleather_leggings_overlay"
+  }
+}

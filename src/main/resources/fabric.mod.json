@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "vanillarmod",
 	"version": "${version}",
-	"name": "mine_lovers's Vanilla Rebalanced",
+	"name": "mine_lovers' Vanilla Rebalanced",
 	"description": "Rebalances Minecraft for a more enjoyable and less casual experience",
 	"authors": [
 		"mine_lovers"
@@ -19,7 +19,7 @@
 			"net.mine_lovers.vanillarmod.VanillaRMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.example.VanillaRModClient"
 		]
 	},
 	"mixins": [
