@@ -2,6 +2,7 @@ package net.mine_lovers.vanillarmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mine_lovers.vanillarmod.item.ModItemGroup;
 import net.mine_lovers.vanillarmod.item.VanillaRItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +25,10 @@ public class VanillaRMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		//initialize custom items
+
 		VanillaRItems.registerItems();
+		ModItemGroup.registerGroups();
 		MixinBootstrap.init();
+
 	}
 }

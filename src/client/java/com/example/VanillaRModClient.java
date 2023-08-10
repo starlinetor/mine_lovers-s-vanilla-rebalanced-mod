@@ -1,8 +1,12 @@
 package com.example;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.mine_lovers.vanillarmod.item.ArmorEffectsClient;
 import net.mine_lovers.vanillarmod.item.VanillaRItems;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.entity.player.PlayerEntity;
 
 public class VanillaRModClient implements ClientModInitializer {
 	@Override
@@ -58,5 +62,16 @@ public class VanillaRModClient implements ClientModInitializer {
 			}
 			return -1;
 		}, VanillaRItems.STUDDEDLEATHER_BOOTS);
+
+
+		//get 1 reference of armour effects and run it every tick
+		ArmorEffectsClient armorEffectsClient = new ArmorEffectsClient();
+
+		ClientTickEvents.END_CLIENT_TICK.register(client -> {
+			PlayerEntity player = MinecraftClient.getInstance().player;
+			if (player != null) {
+				armorEffectsClient.AddEffects(player);
+			}
+		});
 	}
 }

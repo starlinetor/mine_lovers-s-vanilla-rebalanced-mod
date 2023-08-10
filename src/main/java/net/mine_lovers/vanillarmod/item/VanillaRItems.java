@@ -32,6 +32,33 @@ public class VanillaRItems {
                     new DyeableArmorItem(ModArmorMaterials.STUDDEDLEATHER, ArmorItem.Type.BOOTS , new Item.Settings()));
 
 
+    //dwarven gold armor
+    public static final ArmorItem DWARVENGOLD_HELMET =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "dwarvengold_helmet"),
+                    new ArmorItem(ModArmorMaterials.DWARVENGOLD, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final ArmorItem DWARVENGOLD_CHESTPLATE =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "dwarvengold_chestplate"),
+                    new ArmorItem(ModArmorMaterials.DWARVENGOLD, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final ArmorItem DWARVENGOLD_LEGGINGS =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "dwarvengold_leggings"),
+                    new ArmorItem(ModArmorMaterials.DWARVENGOLD, ArmorItem.Type.LEGGINGS, new Item.Settings()));
+    public static final ArmorItem DWARVENGOLD_BOOTS =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "dwarvengold_boots"),
+                    new ArmorItem(ModArmorMaterials.DWARVENGOLD, ArmorItem.Type.BOOTS, new Item.Settings()));
+    //pure dwarven gold armor
+    public static final ArmorItem PUREDWARVENGOLD_HELMET =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "puredwarvengold_helmet"),
+                    new ArmorItem(ModArmorMaterials.PUREDWARVENGOLD, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final ArmorItem PUREDWARVENGOLD_CHESTPLATE =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "puredwarvengold_chestplate"),
+                    new ArmorItem(ModArmorMaterials.PUREDWARVENGOLD, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final ArmorItem PUREDWARVENGOLD_LEGGINGS =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "puredwarvengold_leggings"),
+                    new ArmorItem(ModArmorMaterials.PUREDWARVENGOLD, ArmorItem.Type.LEGGINGS, new Item.Settings()));
+    public static final ArmorItem PUREDWARVENGOLD_BOOTS =
+            Registry.register(ITEM, new Identifier(VanillaRMod.MOD_ID, "puredwarvengold_boots"),
+                    new ArmorItem(ModArmorMaterials.PUREDWARVENGOLD, ArmorItem.Type.BOOTS, new Item.Settings()));
+
     public static void registerItems() {
         VanillaRMod.LOGGER.info("Initializing items");
     }

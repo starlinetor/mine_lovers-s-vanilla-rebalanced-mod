@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:enchanted_golden_apple"
   },
   "base": {
-    "item": "minecraft:iron_shovel"
+    "item": "vanillarmod:dwarvengold_boots"
   },
   "result": {
-    "item": "minecraft:netherite_shovel"
+    "item": "vanillarmod:puredwarvengold_boots"
   },
   "template": {
     "item": "vanillarmod:upgrading_tools"

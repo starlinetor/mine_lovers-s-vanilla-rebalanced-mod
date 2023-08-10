@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:golden_apple"
   },
   "base": {
-    "item": "minecraft:iron_sword"
+    "item": "minecraft:golden_boots"
   },
   "result": {
-    "item": "minecraft:netherite_sword"
+    "item": "vanillarmod:dwarvengold_boots"
   },
   "template": {
     "item": "vanillarmod:upgrading_tools"

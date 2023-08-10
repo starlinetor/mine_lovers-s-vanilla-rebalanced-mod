@@ -6,6 +6,16 @@
 
   "item.vanillarmod.studdedleather_helmet":"Studded Leather Helmet",
   "item.vanillarmod.studdedleather_chestplate":"Studded Leather Chestplate",
-  "item.vanillarmod.studdedleather_leggings":"Studded Leather Leggins",
-  "item.vanillarmod.studdedleather_boots":"Studded Leather Boots"
+  "item.vanillarmod.studdedleather_leggings":"Studded Leather Leggings",
+  "item.vanillarmod.studdedleather_boots":"Studded Leather Boots",
+
+  "item.vanillarmod.dwarvengold_helmet":"Dwarven Gold Helmet",
+  "item.vanillarmod.dwarvengold_chestplate":"Dwarven Gold Chestplate",
+  "item.vanillarmod.dwarvengold_leggings":"Dwarven Gold Leggings",
+  "item.vanillarmod.dwarvengold_boots":"Dwarven Gold Boots",
+
+  "item.vanillarmod.puredwarvengold_helmet":"Runic Dwarven Gold Helmet",
+  "item.vanillarmod.puredwarvengold_chestplate":"Runic Dwarven Gold Chestplate",
+  "item.vanillarmod.puredwarvengold_leggings":"Runic Dwarven Gold Leggings",
+  "item.vanillarmod.puredwarvengold_boots":"Runic Dwarven Gold Boots"
 }

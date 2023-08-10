@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "base": {
+    "item": "vanillarmod:dwarvengold_chestplate"
+  },
+  "result": {
+    "item": "vanillarmod:puredwarvengold_chestplate"
+  },
+  "template": {
+    "item": "vanillarmod:upgrading_tools"
+  }
+}

@@ -15,7 +15,19 @@ import net.minecraft.util.Util;
 public enum ModArmorMaterials implements StringIdentifiable,
         ArmorMaterial
 {
-    STUDDEDLEATHER("studdedleather", 15, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
+    PUREDWARVENGOLD("puredwarvengold", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+        map.put(ArmorItem.Type.BOOTS, 1);
+        map.put(ArmorItem.Type.LEGGINGS, 3);
+        map.put(ArmorItem.Type.CHESTPLATE, 5);
+        map.put(ArmorItem.Type.HELMET, 2);
+    }), 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+    DWARVENGOLD("dwarvengold", 15, Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+        map.put(ArmorItem.Type.BOOTS, 1);
+        map.put(ArmorItem.Type.LEGGINGS, 3);
+        map.put(ArmorItem.Type.CHESTPLATE, 5);
+        map.put(ArmorItem.Type.HELMET, 2);
+    }), 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+    STUDDEDLEATHER("studdedleather", 15, Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 2);
         map.put(ArmorItem.Type.LEGGINGS, 5);
         map.put(ArmorItem.Type.CHESTPLATE, 6);
@@ -33,7 +45,7 @@ public enum ModArmorMaterials implements StringIdentifiable,
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -41,7 +53,7 @@ public enum ModArmorMaterials implements StringIdentifiable,
         this.equipSound = equipSound;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
-        this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
+        this.repairIngredientSupplier = new Lazy<>(repairIngredientSupplier);
     }
 
     @Override

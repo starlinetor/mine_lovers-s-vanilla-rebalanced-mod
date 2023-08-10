@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "base": {
+    "item": "vanillarmod:dwarvengold_leggings"
+  },
+  "result": {
+    "item": "vanillarmod:puredwarvengold_leggings"
+  },
+  "template": {
+    "item": "vanillarmod:upgrading_tools"
+  }
+}

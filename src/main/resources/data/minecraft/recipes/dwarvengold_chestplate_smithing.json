@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:golden_apple"
   },
   "base": {
-    "item": "minecraft:iron_axe"
+    "item": "minecraft:golden_chestplate"
   },
   "result": {
-    "item": "minecraft:netherite_axe"
+    "item": "vanillarmod:dwarvengold_chestplate"
   },
   "template": {
     "item": "vanillarmod:upgrading_tools"

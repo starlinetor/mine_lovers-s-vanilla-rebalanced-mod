@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:golden_apple"
   },
   "base": {
-    "item": "minecraft:iron_hoe"
+    "item": "minecraft:golden_helmet"
   },
   "result": {
-    "item": "minecraft:netherite_hoe"
+    "item": "vanillarmod:dwarvengold_helmet"
   },
   "template": {
     "item": "vanillarmod:upgrading_tools"

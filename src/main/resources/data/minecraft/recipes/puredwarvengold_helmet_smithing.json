@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:enchanted_golden_apple"
   },
   "base": {
-    "item": "minecraft:iron_pickaxe"
+    "item": "vanillarmod:dwarvengold_helmet"
   },
   "result": {
-    "item": "minecraft:netherite_pickaxe"
+    "item": "vanillarmod:puredwarvengold_helmet"
   },
   "template": {
     "item": "vanillarmod:upgrading_tools"
